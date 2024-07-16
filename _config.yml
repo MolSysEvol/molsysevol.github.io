@@ -18,16 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Homepage of the Research Group Molecular Systems Evolution
+email: dutheil(at)evolbio.mpg.de
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Our research aims at understanding the evolution of genomes. By comparing genome sequences from various individuals and/or species, one can gain insights into the process of how and when species are created, a fundamental aspect of life and, therefore, of biology. In order to do so, we combine modeling approaches and statistical data analysis, as well as lab experiments when possible. Our research makes us wander in the fields of phylogenetics, population genomics and structural biology, as well as systems biology. In particular, we are interested in characterising stochastic processes at distinct levels of organization, in order to understand their role in evolution.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  #twitter_username: jekyllrb
+  #github_username:  jekyll
 
 # Build settings
 theme: minima
