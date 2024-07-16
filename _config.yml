@@ -21,16 +21,19 @@
 title: Homepage of the Research Group Molecular Systems Evolution
 email: dutheil(at)evolbio.mpg.de
 description: >- # this means to ignore newlines until "baseurl:"
-  Our research aims at understanding the evolution of genomes. By comparing genome sequences from various individuals and/or species, one can gain insights into the process of how and when species are created, a fundamental aspect of life and, therefore, of biology. In order to do so, we combine modeling approaches and statistical data analysis, as well as lab experiments when possible. Our research makes us wander in the fields of phylogenetics, population genomics and structural biology, as well as systems biology. In particular, we are interested in characterising stochastic processes at distinct levels of organization, in order to understand their role in evolution.
-baseurl: "" # the subpath of your site, e.g. /blog
+  The Molecular Systems Evolution research group studies molecular evolution at distinct organizational levels. Its central goal is understanding the interaction between stochastic processes and natural selection. Our research questions are articulated around three major axes: (1) modelling the genealogical process of neutral sequence evolution to infer the history of populations, (2) characterising adaptive processes in time and along genomes, with a focus on the role of epistatic interactions, and (3) studying the evolution of the so-called expression noise and its contribution to regulatory networks evolution. The first axis relies on population genetic modelling, specifically coalescence theory, and hidden Markov chains to design new population genomics inference tools. The second axis builds on fitness landscapes theory, population genetics, and structural biology. The third axis is a new venture in the realm of evolutionary single-cell biology, for which we developed new statistical models and designed experimental protocols to generate new comparative datasets.
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
   #twitter_username: jekyllrb
   #github_username:  jekyll
 
 # Build settings
-theme: minima
+#theme: minima
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: aterenin/minima-reboot
 
 # Exclude from processing.
 # The following items will not be processed, by default.
