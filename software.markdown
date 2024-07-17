@@ -2,9 +2,8 @@
 layout: page
 title: Software
 permalink: /software/
+feature-img: "assets/img/twin_trees_banner.png"
 ---
-
-![Image](/images/twin_trees_banner.png)
 
 
 ## <a href="https://biopp.github.io/">The Bio++ libraries</a>

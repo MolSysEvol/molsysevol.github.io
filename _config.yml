@@ -22,7 +22,8 @@ title: Homepage of the Research Group Molecular Systems Evolution
 email: dutheil(at)evolbio.mpg.de
 description: >- # this means to ignore newlines until "baseurl:"
   The Molecular Systems Evolution research group studies molecular evolution at distinct organizational levels. Its central goal is understanding the interaction between stochastic processes and natural selection. Our research questions are articulated around three major axes: (1) modelling the genealogical process of neutral sequence evolution to infer the history of populations, (2) characterising adaptive processes in time and along genomes, with a focus on the role of epistatic interactions, and (3) studying the evolution of the so-called expression noise and its contribution to regulatory networks evolution. The first axis relies on population genetic modelling, specifically coalescence theory, and hidden Markov chains to design new population genomics inference tools. The second axis builds on fitness landscapes theory, population genetics, and structural biology. The third axis is a new venture in the realm of evolutionary single-cell biology, for which we developed new statistical models and designed experimental protocols to generate new comparative datasets.
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://molsysevol.github.io"
   #twitter_username: jekyllrb
   #github_username:  jekyll
 
@@ -32,8 +33,33 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-paginate
+    
+remote_theme: 
+  rohanchandra/type-theme
+  #aterenin/minima-reboot
 
-remote_theme: aterenin/minima-reboot
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: Homepage of the Research Group Molecular Systems Evolution
+  avatar: assets/img/logo.png
+  favicon: 
+  gravatar: # Email MD5 hash
+  description: "Homepage of the Research Group Molecular Systems Evolution" # used by search engines
+  # Header and footer text
+  header_text: >
+     The Molecular Systems Evolution research group studies molecular evolution at distinct organizational levels. Its central goal is understanding the interaction between stochastic processes and natural selection. Our research questions are articulated around three major axes: (1) modelling the genealogical process of neutral sequence evolution to infer the history of populations, (2) characterising adaptive processes in time and along genomes, with a focus on the role of epistatic interactions, and (3) studying the evolution of the so-called expression noise and its contribution to regulatory networks evolution. The first axis relies on population genetic modelling, specifically coalescence theory, and hidden Markov chains to design new population genomics inference tools. The second axis builds on fitness landscapes theory, population genetics, and structural biology. The third axis is a new venture in the realm of evolutionary single-cell biology, for which we developed new statistical models and designed experimental protocols to generate new comparative datasets.
+  header_text_feature_image:
+  footer_text: >
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+  site_navigation_sort: order
+
+# PAGINATION
+paginate: 5
+paginate_path: "news/page:num"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

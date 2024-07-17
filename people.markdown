@@ -2,9 +2,8 @@
 layout: page
 title: People
 permalink: /people/
+feature-img: "assets/img/institute_roof_banner.png"
 ---
-
-![Image](/images/institute_roof_banner.png)
 
 ## Current
 
