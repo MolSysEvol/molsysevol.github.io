@@ -10,7 +10,7 @@ feature-img: "assets/img/institute_roof_banner.png"
 - Prof. Dr. Julien Y. Dutheil, Group Leader
 - Jinyang Liang, PhD student
 - <a href="https://fernandatrancoso.github.io/">Fernanda Fontes Trancoso</a>, PhD student
-- Muhammed Rašit Durak, PhD student
+- Muhammed Rasit Durak, PhD student
 
 ## Former alumni
 
