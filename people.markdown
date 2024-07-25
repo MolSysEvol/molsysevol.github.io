@@ -27,7 +27,7 @@ feature-img: "assets/img/institute_roof_banner.png"
 
 ## They spent some time with us...
 
-- Audrey Le Veve (Postdoc, Lab visit 2023)
+- Dr. Audrey Le Veve (Postdoc, Lab visit 2023)
 - Basile Pajot (Internship 2023)
 - Jorge Luis Cuamatzi (PhD student, lab visit 2022)
 - Zeynep Akçor (Internship 2022)
