@@ -51,7 +51,7 @@ theme_settings:
   # Header and footer text
   header_text: >
      The Molecular Systems Evolution research group studies molecular evolution at distinct organizational levels. Its central goal is understanding the interaction between stochastic processes and natural selection. Our research questions are articulated around three major axes: (1) modelling the genealogical process of neutral sequence evolution to infer the history of populations, (2) characterising adaptive processes in time and along genomes, with a focus on the role of epistatic interactions, and (3) studying the evolution of the so-called expression noise and its contribution to regulatory networks evolution. The first axis relies on population genetic modelling, specifically coalescence theory, and hidden Markov chains to design new population genomics inference tools. The second axis builds on fitness landscapes theory, population genetics, and structural biology. The third axis is a new venture in the realm of evolutionary single-cell biology, for which we developed new statistical models and designed experimental protocols to generate new comparative datasets.
-  header_text_feature_image:
+  header_text_feature_image: assets/img/board_banner_1.png
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
   site_navigation_sort: order
