@@ -11,6 +11,8 @@ feature-img: "assets/img/institute_roof_banner.png"
 - Jinyang Liang, PhD student
 - <a href="https://fernandatrancoso.github.io/">Fernanda Fontes Trancoso</a>, PhD student
 - Muhammed Rasit Durak, PhD student
+- Moya Lieffering, Master student (University of Leiden, The Netherlands)
+- Lorenzo Penone, Master student (University of Padua, Italy)
 
 ## Former alumni
 
