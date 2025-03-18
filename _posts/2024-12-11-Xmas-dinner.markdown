@@ -9,6 +9,6 @@ categories: Social events
 
 ![2024's Xmas Dinner](/Pictures/Xmas2024.jpeg)
 
-From left to Right: Diyar, Rasit, Fernanda, Jinyang, Julien.
+From left to right: Diyar, Rasit, Fernanda, Jinyang, Julien.
 
 
