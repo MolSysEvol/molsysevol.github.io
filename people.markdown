@@ -17,7 +17,7 @@ feature-img: "assets/img/institute_roof_banner.png"
 
 ## Former alumni
 
-- Diyar Hamidi, Master student. Now PhD student at University of Hamburg
+- Diyar Hamidi, Master student, MAMBE, Kiel University. Now PhD student at University of Hamburg.
 - <a href="https://natashapuzovic.github.io/">Nataša Puzović</a>, PhD student
 - Kim Joffroy, Master student MAMBE, Kiel
 - Maximilian Raas, Master student Radboud University, The Netherlands (2020 - 2021). Now Ph-D student at Utrecht University.
