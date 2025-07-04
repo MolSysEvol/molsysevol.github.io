@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Dr. Liang!"
+date: 2025-05-06 11:45:00 -0000
+categories: Work
+---
+
+We got a brand new Doctor in the lab! 
+Jinyang Liang successfully defended his PhD titled “Population Genomic Inference with the Ancestral Recombination Graph (ARG): Recombination Landscape and Ancestral State Reconstruction” — huge congrats! Also known in the lab as the resident Python debugger, we are very happy he will be sticking around a bit longer!
