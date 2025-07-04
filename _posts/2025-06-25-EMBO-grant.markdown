@@ -6,4 +6,4 @@ categories: Work
 ---
 
 
-Big congrats to our Phd student Rasit Durak, who has been awarded an EMBO Scientific Exchange Grant for a research stay at ISEM in Montpellier, France.  Bonne chance, Rasit!
+Big congrats to our PhD student Rasit Durak, who has been awarded an EMBO Scientific Exchange Grant for a research stay at ISEM in Montpellier, France.  Bonne chance, Rasit!
