@@ -8,15 +8,16 @@ feature-img: "assets/img/institute_roof_banner.png"
 ## Current
 
 - Prof. Dr. Julien Y. Dutheil, Group Leader
-- Jinyang Liang, PhD student
+- Dr. Jinyang Liang, Postdoc
 - <a href="https://fernandatrancoso.github.io/">Fernanda Fontes Trancoso</a>, PhD student
 - Muhammed Rasit Durak, PhD student
 - Moya Lieffering, Master student (University of Leiden, The Netherlands)
 - Lorenzo Penone, Master student (University of Padua, Italy)
+- Alicem Susam, Master Student (Kiel University, Germany)
 
 ## Former alumni
 
-- Diyar Hamidi, Master student
+- Diyar Hamidi, Master student. Now PhD student at University of Hamburg
 - <a href="https://natashapuzovic.github.io/">Nataša Puzović</a>, PhD student
 - Kim Joffroy, Master student MAMBE, Kiel
 - Maximilian Raas, Master student Radboud University, The Netherlands (2020 - 2021). Now Ph-D student at Utrecht University.
