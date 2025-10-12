@@ -11,12 +11,13 @@ feature-img: "assets/img/institute_roof_banner.png"
 - Dr. Jinyang Liang, Postdoc
 - <a href="https://fernandatrancoso.github.io/">Fernanda Fontes Trancoso</a>, PhD student
 - Muhammed Rasit Durak, PhD student
-- Moya Lieffering, Master student (University of Leiden, The Netherlands)
-- Lorenzo Penone, Master student (University of Padua, Italy)
+- <a href="https://lorenzopenone.github.io/">Lorenzo Penone</a>, Master student (University of Padua, Italy)
 - Alicem Susam, Master Student (Kiel University, Germany)
+- Chongyang Wang, PhD student
 
 ## Former alumni
 
+- Moya Lieffering, Master student (University of Leiden, The Netherlands)
 - Diyar Hamidi, Master student, MAMBE, Kiel University. Now PhD student at University of Hamburg.
 - <a href="https://natashapuzovic.github.io/">Nataša Puzović</a>, PhD student
 - Kim Joffroy, Master student MAMBE, Kiel
