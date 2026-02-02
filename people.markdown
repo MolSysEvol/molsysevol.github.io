@@ -9,7 +9,7 @@ feature-img: "assets/img/institute_roof_banner.png"
 
 - Prof. Dr. Julien Y. Dutheil, Group Leader
 - Dr. Jinyang Liang, Postdoc
-- <a href="https://fernandatrancoso.github.io/">Fernanda Fontes Trancoso</a>, PhD student
+- <a href="https://fernandagiersdorf.github.io/">Fernanda Giersdorf</a>, PhD student
 - Muhammed Rasit Durak, PhD student
 - <a href="https://lorenzopenone.github.io/">Lorenzo Penone</a>, Master student (University of Padua, Italy)
 - Alicem Susam, Master Student (Kiel University, Germany)
