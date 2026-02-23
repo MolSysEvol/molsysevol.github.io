@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jinyang going even more north"
- date: 2025-11-05 14:00:00 -0000
+date: 2025-11-15 14:00:00 -0000
 categories: Work
 ---
 
