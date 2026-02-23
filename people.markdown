@@ -8,7 +8,6 @@ feature-img: "assets/img/institute_roof_banner.png"
 ## Current
 
 - Prof. Dr. Julien Y. Dutheil, Group Leader
-- Dr. Jinyang Liang, Postdoc
 - <a href="https://fernandagiersdorf.github.io/">Fernanda Giersdorf</a>, PhD student
 - Muhammed Rasit Durak, PhD student
 - <a href="https://lorenzopenone.github.io/">Lorenzo Penone</a>, Master student (University of Padua, Italy)
@@ -17,6 +16,7 @@ feature-img: "assets/img/institute_roof_banner.png"
 
 ## Former alumni
 
+- Dr. Jinyang Liang, PhD student (2021 - 2025).
 - Moya Lieffering, Master student (University of Leiden, The Netherlands)
 - Diyar Hamidi, Master student, MAMBE, Kiel University. Now PhD student at University of Hamburg.
 - <a href="https://natashapuzovic.github.io/">Nataša Puzović</a>, PhD student
@@ -24,7 +24,7 @@ feature-img: "assets/img/institute_roof_banner.png"
 - Maximilian Raas, Master student Radboud University, The Netherlands (2020 - 2021). Now Ph-D student at Utrecht University.
 - Dr. Muhammad Bilal Haider, PhD student (2018 - 2021). Now postdoc with L. Henry at Queen Mary University of London.
 - <a href="https://gvbarroso.github.io/">Dr. Gustavo Barroso</a>, Intern and PhD student (2015 - 2019). Now postdoc with A. Ragsdale at UW-Madison.
-- <a href="https://profiles.sussex.ac.uk/p526764-ana-filipa-moutinho">Dr. Ana Filipa Moutinho</a>, PhD student (2017 - 2020). Now postdoc with A. Eyre-Walker at the University of Sussex.
+- <a href="https://profiles.sussex.ac.uk/p526764-ana-filipa-moutinho">Dr. Ana Filipa Moutinho</a>, PhD student (2017 - 2020). 
 - Marina Kiweler, Bachelor student University of Trier (2017)
 - Shilpi Chaurasia, Postdoc (2014 - 2016). Now Senior Scientific Manager at Excelra.
 - Estelle Renaud, Master student Ecole Normale Supérieure de Lyon, France(2016)
