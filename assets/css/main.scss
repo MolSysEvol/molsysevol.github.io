@@ -5,24 +5,32 @@
 @import "type-theme";
 @import "index";
 
-/* --- 1. General Layout Spacing --- */
+/* --- 1. General Layout --- */
 .container, .wrapper, main {
   max-width: 760px;       
-  padding: 1.5rem 1rem;   
-}
-
-.home, .posts, article {
-  margin-top: 0.5rem;       
+  padding: 1rem 1rem;   
 }
 
 p {
-  margin-bottom: 1rem;    
+  margin-bottom: 0.75rem;    
 }
 
+/* --- 2. Main Website Banner Title (Keeps Native Size) --- */
+.site-header .site-title, .site-title, h1.site-title {
+  font-size: 1.8rem !important; 
+  margin-bottom: 1rem !important;
+}
 
-/* --- 2. Post Titles (Shrunk down to 1.5rem) --- */
-/* Targets post titles in the home feed (which are links) and individual post pages */
-h1 a.post-link, .post-link, article h1 {
+/* --- 3. Navigation Links (People, About, Software, etc.) --- */
+/* Restores and locks your main nav menu items to a clear, legible size */
+header nav a, .site-nav a, .trigger a, .nav-link, header ul li a {
+  font-size: 1.15rem !important;
+  font-weight: 500 !important;
+  padding: 0.25rem 0.5rem !important;
+}
+
+/* --- 4. Post Titles inside the Blog Stream (Shrunk to 1.5rem) --- */
+h1 a.post-link, .post-link, article h1, .post-title {
   font-size: 1.5rem !important; 
   font-weight: 600 !important;             
 }
@@ -33,29 +41,25 @@ h1 a.post-link, .post-link, article h1 {
   color: #777;
 }
 
-
-/* --- 3. Tighten Blank Gaps around Posts --- */
-/* Pulls the post titles up closer to the content above them */
-h1 a.post-link, article h1, .post {
-  margin-top: 0.5rem !important;
+/* --- 5. Aggressive Gap Reduction on the Front Page --- */
+/* Collapses the empty white vertical space around each individual post block */
+.home article, .posts article, .post-preview, li.post, .post {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.75rem !important; 
   padding-top: 0px !important;
-}
-
-/* Reduces the empty space below the "Continue reading" link */
-.home article, .posts article, .post-preview, li.post {
-  margin-bottom: 1.25rem !important; 
   padding-bottom: 0px !important;
+  border-bottom: none !important; /* Removes any default spacing lines if present */
 }
 
+/* Tightens the space right around the title header itself */
+h1 a.post-link, article h1, .post-title-container {
+  margin-top: 0px !important;
+  margin-bottom: 0.25rem !important;
+}
+
+/* Tightens the space below the "Continue reading" links */
 a[href*="continue"], .read-more, .more-link {
+  margin-top: 0.25rem !important;
   margin-bottom: 0px !important;
   display: inline-block;
-}
-
-
-/* --- 4. Main Website Banner Title (Restored to Default) --- */
-/* This ensures your main top header title stays at its original theme size */
-.site-header .site-title, .site-title {
-  font-size: 1.8rem !important; /* Resets the website name back to its elegant default */
-  margin-bottom: 1.5rem !important;
 }
