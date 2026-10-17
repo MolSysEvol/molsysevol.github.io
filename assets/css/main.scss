@@ -23,3 +23,9 @@ h1, h2, h3 {
 p {
   margin-bottom: 1rem;    /* Makes text blocks look slightly more cohesive */
 }
+
+/* --- Adjust Post Title Sizes --- */
+.home h1, .posts h1, article h1, .post-title {
+  font-size: 1.5rem !important; /* Makes the main post titles smaller and more balanced */
+  font-weight: 600;             /* Keeps them clean and readable without being overly bulky */
+}
