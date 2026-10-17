@@ -10,13 +10,14 @@ feature-img: "assets/img/institute_roof_banner.png"
 - Prof. Dr. Julien Y. Dutheil, Group Leader
 - <a href="https://fernandagiersdorf.github.io/">Fernanda Giersdorf</a>, PhD student
 - Muhammed Rasit Durak, PhD student
-- <a href="https://lorenzopenone.github.io/">Lorenzo Penone</a>, Master student (University of Padua, Italy)
-- Alicem Susam, Master Student (Kiel University, Germany)
 - Chongyang Wang, PhD student
+- <a href="https://lorenzopenone.github.io/">Lorenzo Penone</a>, PhD student
 
 ## Former alumni
 
+- Alicem Susam, Master Student (Kiel University, Germany)
 - Dr. Jinyang Liang, PhD student (2021 - 2025).
+- <a href="https://lorenzopenone.github.io/">Lorenzo Penone</a>, Master student (University of Padua, Italy)
 - Moya Lieffering, Master student (University of Leiden, The Netherlands)
 - Diyar Hamidi, Master student, MAMBE, Kiel University. Now PhD student at University of Hamburg.
 - <a href="https://natashapuzovic.github.io/">Nataša Puzović</a>, PhD student
