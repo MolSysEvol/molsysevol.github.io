@@ -5,19 +5,14 @@
 @import "type-theme";
 @import "index";
 
-/* --- 1. Minimal Layout Spacing Tweaks --- */
+/* --- 1. General Layout Spacing --- */
 .container, .wrapper, main {
   max-width: 760px;       
   padding: 1.5rem 1rem;   
 }
 
 .home, .posts, article {
-  margin-top: 1rem;       
-}
-
-h1, h2, h3 {
-  margin-top: 1.5rem;     
-  margin-bottom: 0.5rem;  
+  margin-top: 0.5rem;       
 }
 
 p {
@@ -25,37 +20,42 @@ p {
 }
 
 
-/* --- 2. Reduced Post Title Sizes (Leaving Main Banner Alone) --- */
-/* This now explicitly targets ONLY titles inside articles/posts */
-article h1, .post-title, .post-preview h1, .home .post h1 {
+/* --- 2. Post Titles (Shrunk down to 1.5rem) --- */
+/* Targets post titles in the home feed (which are links) and individual post pages */
+h1 a.post-link, .post-link, article h1 {
   font-size: 1.5rem !important; 
-  font-weight: 600;             
+  font-weight: 600 !important;             
 }
 
-.post-date, time {
+/* Metadata dates under titles */
+.post-date, time, .meta {
   font-size: 0.85rem;
   color: #777;
 }
 
 
-/* --- 3. Tightened Post Gaps (Before Title & After Continue Reading) --- */
-article h1, .post-title, .post-preview h1 {
+/* --- 3. Tighten Blank Gaps around Posts --- */
+/* Pulls the post titles up closer to the content above them */
+h1 a.post-link, article h1, .post {
   margin-top: 0.5rem !important;
   padding-top: 0px !important;
 }
 
+/* Reduces the empty space below the "Continue reading" link */
 .home article, .posts article, .post-preview, li.post {
-  margin-bottom: 1.5rem !important; 
+  margin-bottom: 1.25rem !important; 
   padding-bottom: 0px !important;
 }
 
-a[href*="continue"], .read-more, .more-link, .excerpt-link {
+a[href*="continue"], .read-more, .more-link {
   margin-bottom: 0px !important;
   display: inline-block;
 }
 
 
-/* --- 4. Force Banner/Site Title To Keep Its Original Size --- */
-.site-title, .site-header h1, header h1.site-title, h1.site-title {
-  font-size: 2.25rem !important; /* Forces your main website name to stay large */
+/* --- 4. Main Website Banner Title (Restored to Default) --- */
+/* This ensures your main top header title stays at its original theme size */
+.site-header .site-title, .site-title {
+  font-size: 1.8rem !important; /* Resets the website name back to its elegant default */
+  margin-bottom: 1.5rem !important;
 }
