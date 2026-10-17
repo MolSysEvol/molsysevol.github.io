@@ -5,60 +5,67 @@
 @import "type-theme";
 @import "index";
 
-
-/* --- 1. General Layout Width --- */
+/* ==========================================
+   1. PAGE WIDTH & BASE TEXT
+   ========================================== */
 .container, .wrapper, main, .page-content {
   max-width: 760px !important;       
-  padding: 1rem 1rem !important;   
+  padding: 1rem !important;   
 }
 
-/* --- 2. Main Website Banner Title --- */
-.site-header .site-title, .site-title, h1.site-title {
+p { 
+  margin-bottom: 0.5rem !important; 
+}
+
+/* ==========================================
+   2. HEADER & TEXT SIZES
+   ========================================== */
+/* Main website title banner */
+.site-title { 
   font-size: 1.8rem !important; 
-  margin-top: 0.5rem !important;
-  margin-bottom: 1rem !important;
+  margin-bottom: 1rem !important; 
 }
 
-/* --- 3. Navigation Links (People, About, Software, etc.) --- */
-header nav a, .site-nav a, .trigger a, .nav-link, header ul li a {
-  font-size: 1.15rem !important;
-  font-weight: 500 !important;
-  padding: 0.25rem 0.5rem !important;
+/* Navigation menu (People, About, Software, etc.) */
+header nav a, .site-nav a, .nav-link { 
+  font-size: 1.15rem !important; 
+  font-weight: 500 !important; 
 }
 
-/* --- 4. Strict Spacing & Size Fix for Homepage Content --- */
-/* This shrinks the font size of any header that acts as a post title */
-main h1, main h2, .post-title, article h1, h1 a {
+/* Blog post titles */
+h1 a.post-link, .post-link, article h1, .post-title, .post-title a { 
   font-size: 1.5rem !important; 
-  font-weight: 600 !important;
-  margin-top: 1.25rem !important;   /* Control the exact space ABOVE each entry title */
-  margin-bottom: 0.25rem !important; /* Spacing between title and the date/text below it */
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
+  font-weight: 600 !important; 
 }
 
-/* Restores your main website header if it is also a main h1 */
-header h1, h1.site-title {
-  font-size: 1.8rem !important;
+/* Post metadata dates */
+.post-date, time, .meta { 
+  font-size: 0.85rem !important; 
+  color: #777 !important; 
+}
+
+/* ==========================================
+   3. THE VERTICAL GAP FIX
+   ========================================== */
+/* Collapses spaces around the front page list wrappers and entries */
+.home, .post-list, .posts, ul.post-list, li.post-item, .post-teaser,
+.home article, .home li, .post-preview, article, .post {
   margin-top: 0px !important;
+  margin-bottom: 0.75rem !important; /* Sets the custom compact spacing between updates */
+  padding: 0px !important;
 }
 
-/* Tightens the space on all paragraphs and "Continue reading" links */
-main p, .home p, article p, .post-preview p {
-  margin-top: 0px !important;
-  margin-bottom: 0.5rem !important; /* Drastically reduces spacing below blocks of text */
+/* Tightens empty gaps directly above and below post titles */
+.home h1, .home h2, 
+.post-link, .post-title, 
+article h1 { 
+  margin: 0.25rem 0 !important; 
 }
 
-/* Reduces spaces around horizontal rules or spacing lines if any exist */
-hr {
-  margin: 0.75rem 0 !important;
+/* Shortens the drop spacing right under the "Continue reading" links */
+a[href*="continue"], .read-more, .more-link, .excerpt-link { 
+  display: inline-block !important; 
+  margin: 0 !important; 
 }
 
-/* Shrinks dates or small text sitting directly beneath titles */
-main time, .post-date, .meta, main p + em {
-  display: block;
-  margin-top: 0px !important;
-  margin-bottom: 0.4rem !important;
-  font-size: 0.85rem !important;
-  color: #777 !important;
-}
+
