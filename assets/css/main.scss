@@ -24,6 +24,26 @@ p {
   margin-bottom: 1rem;    /* Makes text blocks look slightly more cohesive */
 }
 
+/* --- Tighten Post Gaps (Before Title & After Continue Reading) --- */
+
+/* Reduces space before the title of a post by shrinking top margins */
+.home h1, .posts h1, article, .post {
+  margin-top: 0.5rem !important;
+  padding-top: 0px !important;
+}
+
+/* Reduces the large empty gap beneath the "Continue reading" link */
+.home article, .posts article, .post-preview, li.post {
+  margin-bottom: 1.5rem !important; 
+  padding-bottom: 0px !important;
+}
+
+/* Targets the link paragraph itself to clear default bottom spacing */
+a[href*="continue"], .read-more, .more-link, .excerpt-link {
+  margin-bottom: 0px !important;
+  display: inline-block;
+}
+
 /* --- Adjust Post Title Sizes --- */
 .home h1, .posts h1, article h1, .post-title {
   font-size: 1.5rem !important; /* Makes the main post titles smaller and more balanced */
