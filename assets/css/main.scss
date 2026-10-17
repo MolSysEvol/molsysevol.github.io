@@ -5,47 +5,57 @@
 @import "type-theme";
 @import "index";
 
-/* --- Minimal Spacing Tweaks --- */
+/* --- 1. Minimal Layout Spacing Tweaks --- */
 .container, .wrapper, main {
-  max-width: 760px;       /* Narrows the layout so text doesn't look lost on wide screens */
-  padding: 1.5rem 1rem;   /* Decreases large empty padding around the main container */
+  max-width: 760px;       
+  padding: 1.5rem 1rem;   
 }
 
 .home, .posts, article {
-  margin-top: 1rem;       /* Reduces massive vertical gaps between your news items */
+  margin-top: 1rem;       
 }
 
 h1, h2, h3 {
-  margin-top: 1.5rem;     /* Pulls headers closer to the text above them */
-  margin-bottom: 0.5rem;  /* Keeps titles tightly coupled with their descriptions */
+  margin-top: 1.5rem;     
+  margin-bottom: 0.5rem;  
 }
 
 p {
-  margin-bottom: 1rem;    /* Makes text blocks look slightly more cohesive */
+  margin-bottom: 1rem;    
 }
 
-/* --- Tighten Post Gaps (Before Title & After Continue Reading) --- */
 
-/* Reduces space before the title of a post by shrinking top margins */
-.home h1, .posts h1, article, .post {
+/* --- 2. Reduced Post Title Sizes (Leaving Main Banner Alone) --- */
+/* This now explicitly targets ONLY titles inside articles/posts */
+article h1, .post-title, .post-preview h1, .home .post h1 {
+  font-size: 1.5rem !important; 
+  font-weight: 600;             
+}
+
+.post-date, time {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+
+/* --- 3. Tightened Post Gaps (Before Title & After Continue Reading) --- */
+article h1, .post-title, .post-preview h1 {
   margin-top: 0.5rem !important;
   padding-top: 0px !important;
 }
 
-/* Reduces the large empty gap beneath the "Continue reading" link */
 .home article, .posts article, .post-preview, li.post {
   margin-bottom: 1.5rem !important; 
   padding-bottom: 0px !important;
 }
 
-/* Targets the link paragraph itself to clear default bottom spacing */
 a[href*="continue"], .read-more, .more-link, .excerpt-link {
   margin-bottom: 0px !important;
   display: inline-block;
 }
 
-/* --- Adjust Post Title Sizes --- */
-.home h1, .posts h1, article h1, .post-title {
-  font-size: 1.5rem !important; /* Makes the main post titles smaller and more balanced */
-  font-weight: 600;             /* Keeps them clean and readable without being overly bulky */
+
+/* --- 4. Force Banner/Site Title To Keep Its Original Size --- */
+.site-title, .site-header h1, header h1.site-title, h1.site-title {
+  font-size: 2.25rem !important; /* Forces your main website name to stay large */
 }
