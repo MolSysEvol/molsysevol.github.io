@@ -4,3 +4,22 @@
 @import "variables";
 @import "type-theme";
 @import "index";
+
+/* --- Minimal Spacing Tweaks --- */
+.container, .wrapper, main {
+  max-width: 760px;       /* Narrows the layout so text doesn't look lost on wide screens */
+  padding: 1.5rem 1rem;   /* Decreases large empty padding around the main container */
+}
+
+.home, .posts, article {
+  margin-top: 1rem;       /* Reduces massive vertical gaps between your news items */
+}
+
+h1, h2, h3 {
+  margin-top: 1.5rem;     /* Pulls headers closer to the text above them */
+  margin-bottom: 0.5rem;  /* Keeps titles tightly coupled with their descriptions */
+}
+
+p {
+  margin-bottom: 1rem;    /* Makes text blocks look slightly more cohesive */
+}
