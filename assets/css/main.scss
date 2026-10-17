@@ -17,12 +17,11 @@ p {
 
 /* --- 2. Main Website Banner Title (Keeps Native Size) --- */
 .site-header .site-title, .site-title, h1.site-title {
-  font-size: 1.8rem !important; 
+  font-size: 1.15rem !important; 
   margin-bottom: 1rem !important;
 }
 
 /* --- 3. Navigation Links (People, About, Software, etc.) --- */
-/* Restores and locks your main nav menu items to a clear, legible size */
 header nav a, .site-nav a, .trigger a, .nav-link, header ul li a {
   font-size: 1.15rem !important;
   font-weight: 500 !important;
