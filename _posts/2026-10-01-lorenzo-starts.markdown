@@ -11,3 +11,4 @@ We are delighted to welcome **Lorenzo Penone**, who has started his PhD.
 Lorenzo is working on the evolution of the recombination landscape across Eukaryotes.
 Welcome back!
 
+![Lorenzo Penone]({{ site.baseurl }}/Pictures/Lorenzo.jpg)
