@@ -12,8 +12,10 @@ feature-img: "assets/img/institute_roof_banner.png"
 - Muhammed Rasit Durak, PhD student
 - Chongyang Wang, PhD student
 - <a href="https://lorenzopenone.github.io/">Lorenzo Penone</a>, PhD student
+- Amayrani Luna (Master’s internship)
+- Yazid Lugarel (Master’s internship)
 
-## Former alumni
+## Alumni
 
 - Alicem Susam, Master Student (Kiel University, Germany)
 - Dr. Jinyang Liang, PhD student (2021 - 2025).
@@ -32,6 +34,7 @@ feature-img: "assets/img/institute_roof_banner.png"
 
 ## They spent some time with us...
 
+- Magdalena Kaspar (Kiel University,Master’s internship)
 - Dr. Audrey Le Veve (Postdoc, Lab visit 2023)
 - Basile Pajot (Internship 2023)
 - Jorge Luis Cuamatzi (PhD student, lab visit 2022)
